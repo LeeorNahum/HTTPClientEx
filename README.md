@@ -1,6 +1,6 @@
-# HTTPClientEx
+# HTTPClientEx – Drop-in HTTP client for ESP32 with 32-bit timeouts
 
-HTTPClientEx is an HTTP client for Arduino-ESP32 with extended 32-bit read timeouts. It helps when servers (e.g., AI APIs) take longer than 65 seconds to send data.
+HTTPClientEx is an HTTP client for Arduino-ESP32 with extended 32-bit read timeouts. It helps when servers (e.g., AI APIs) take longer than 65 seconds to send data, and is a drop-in replacement for the stock `HTTPClient`.
 
 > This is a fork of Espressif's `HTTPClient` by Markus Sattler, with minimal changes focused on adding a 32-bit read timeout. Original project: [Espressif Arduino-ESP32 HTTPClient](https://github.com/espressif/arduino-esp32/tree/master/libraries/HTTPClient).
 
